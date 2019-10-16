@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+
+body {
+  margin: 0;
+  font-family: Quicksand, sans-serif;
+}
+
+main {
+  margin: 32px;
+}
+
+.hero {
+  /* Sizing */
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+  color: white;
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(204, 0, 59), rgba(0, 0, 59));
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.hero h1 {
+  /* Text styles */
+  font-size: 50px;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+/* Padding and margins */
+padding: 1em;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+/* Border styles */
+border-radius: 2px;
+}

@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+h2 {
+  color: white;
+  font-size:40px;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+  background: #33003b;
+  padding: 20px;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+
+.right-column {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #66003b;
+}
+
+.right-column img {
+   width: 100%;
+}
+
+
+footer {
+  background-color: #00003b;
+  padding: 10px;
+  text-align: center;
+  color: #cc003b;
+}
+
+/* Stack columns */
+@media (max-width: 600px) {
+  .left-column, .right-column {
+    width: 100%;
+    height: auto;
+  }
+}
