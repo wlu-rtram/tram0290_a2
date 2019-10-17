@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/blood.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- slide 1 -->
+			<section>
+				<section data-background="#dddddd">
+					<img width=300px height=450px data-src="img/donuts.jpg" alt="donut"></section>
+			</section>
+
+			<!-- slide 2 -->
+			<section>
+				<section data-background="img/audio-spectrum.gif"></section>
+				<h2> BMus: Integrated Musical Arts</h2>
+				<p>The Bachelor of Music in Integrated Musical Arts is a new program offered at Laurier. It allows the most flexibility in designing your music degree, to help set students up with minumum 3 practical skills for a freelance music career.</p>
+			</section>
+
+			<!-- slide 3 -->
+			<section>
+				<section data-background-video="video/clone-performance.mp4"></section>
+
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				}
+			]
+		});
+	</script>
+</body>
+
+</html>
