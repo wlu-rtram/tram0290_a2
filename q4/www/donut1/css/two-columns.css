@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+  font-size: 42px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+  background: #fff;
+  padding: 20px;
+}
+
+.left-column img {
+  width: 100%;
+}
+
+.right-column {
+  float: left;
+  width: 50%;
+  background: #fff;
+  padding: 20px;
+}
+
+.right-column img {
+  width: 100%;
+}
+
+footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  color: #cc003b;
+}
+
+.full-width-background {
+  margin-left: -2000px;
+  margin-right: -2000px;
+  height: 80px;
+}
+
+.fwb-red {
+  background-color: white;
+}
+
+/* Stack columns */
+@media (max-width: 600px) {
+  .left-column, .right-column {
+    width: 100%;
+    height: auto;
+  }
+}

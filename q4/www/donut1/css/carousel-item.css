@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0; /* hide all slides */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1; /* show first slide */
+  position: relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+}

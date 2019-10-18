@@ -17,30 +17,6 @@
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="css/carousel-item.css">
-
-
-  <!-- formats the text of the featurettes-->
-  <!--
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
--->
-
-
-  <link href="css/carousel.css" rel="stylesheet">
   <link href="css/product.css" rel="stylesheet">
 </head>
 
@@ -48,15 +24,15 @@
 
   <!-- navigation header -->
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">X+O DONUTS</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+      <a class="navbar-brand" href="index.html">X+O DONUTS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="donut1/index.html">Donut 1</a>
@@ -78,24 +54,24 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image (1920 x 1080) for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('img/chocolate-donut.jpg')">
+      <div class="carousel-item active" style="background-image: url('img/chocolate-donut.jpg')" alt="chocolate donuts">
         <div class="carousel-caption d-none d-md-block">
           <h2 class="display-4">Award Winning Donuts</h2>
-          <p class="lead">This is a description for the first slide.</p>
+          <p class="lead">At X+O, we take pride in the quality of our donuts.</p>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+      <div class="carousel-item" style="background-image: url('img/donut-tray.jpg')" alt="donuts on tray">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Second Slide</h2>
-          <p class="lead">This is a description for the second slide.</p>
+          <h2 class="display-4">From Us to You</h2>
+          <p class="lead">Every donut is made with utmost care and passion.</p>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+      <div class="carousel-item" style="background-image: url('img/donut-share.jpg')" alt="people cheering with donuts">
         <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Third Slide</h2>
-          <p class="lead">This is a description for the third slide.</p>
+          <h2 class="display-4">For Any Occassion</h2>
+          <p class="lead">Donuts ready for you, whatever you're celebrating.</p>
         </div>
       </div>
     </div>
@@ -116,83 +92,24 @@
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
       <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div class="my-3 py-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+          <h2 class="display-5">Chocolate Donuts</h2>
+          <p class="lead">You'll like it a <i>Choco-lot</i></p>
         </div>
-        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        <img src="img/chocolate.jpg" alt="chocolate donuts" style=width="168.75px" height="300px">
       </div>
       <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 p-3">
-          <h2 class="display-5">Another headline</h2>
-          <p class="lead">And an even wittier subheading.</p>
+          <h2 class="display-5">Jelly Donuts</h2>
+          <p class="lead">It'll be your <i>Jam</i></p>
         </div>
-        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+        <img src="img/jelly.jpg" alt="jelly donuts" style=width="168.75px" height="300px">
       </div>
     </div>
-
-
-
-    <!-- START THE FEATURETTES -->
-    <div class="container marketing">
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-            aria-label="Placeholder: 500x500">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-            aria-label="Placeholder: 500x500">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
-            aria-label="Placeholder: 500x500">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
-
 
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; 2017-2019 X+O DONUTS</p>
     </footer>
   </main>
   <script src="js/jquery.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
